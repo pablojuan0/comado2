@@ -1,0 +1,51 @@
+git revert <commit>: Desfaz um commit específico e cria um novo commit revertendo suas alterações.
+git fsck: Verifica a integridade do banco de dados do Git.
+git submodule: Gerencia submódulos dentro do repositório.
+git bisect: Ajuda a encontrar um commit específico que introduziu um problema.
+git help <comando>: Mostra ajuda para o comando especificado.
+git instaweb: Inicia um servidor web para visualizar o repositório.
+git archive: Cria um arquivo zip ou tarball de um repositório.
+git rebase -i <branch>: Permite reorganizar commits interativamente antes de realizar o rebase.
+git clean -df: Remove todos os arquivos não rastreados e diretórios do repositório.
+git config --global alias.<apelido> "<comando>": Cria um atalho (alias) para um comando Git.
+git log --author="<nome>": Exibe os commits feitos por um autor específico.
+git log --grep="<padrão>": Exibe os commits que correspondem a um padrão específico.
+git log --since="<data>": Exibe os commits feitos desde a data especificada.
+git log --until="<data>": Exibe os commits feitos até a data especificada.
+git log --oneline: Exibe o histórico de commits em uma linha por commit.
+git log --graph: Exibe o histórico de commits em forma de gráfico.
+git log --stat: Exibe estatísticas resumidas sobre as alterações em cada commit.
+git blame <arquivo>: Mostra quem modificou cada linha em um arquivo e em qual commit.
+git stash save "<mensagem>": Salva as alterações locais temporariamente com uma mensagem.
+git stash pop stash@{<n>}: Aplica uma entrada específica da lista de stashes salvas.
+git merge --abort: Aborta um processo de merge em caso de conflitos.
+git branch -d <nome_branch>: Deleta uma branch local após mesclá-la.
+git branch -D <nome_branch>: Força a exclusão de uma branch, mesmo que não tenha sido mesclada.
+git commit --amend: Adiciona alterações ao último commit.
+git diff <commit> <commit>: Exibe as diferenças entre dois commits.
+git reset <commit>: Reseta o HEAD para um commit específico, mantendo as alterações no diretório de trabalho.
+git push <remote> --force: Força o push para o repositório remoto, substituindo o histórico.
+git revert --no-commit <commit>: Reverte as alterações de um commit específico sem criar um novo commit.
+git remote update: Atualiza as referências dos repositórios remotos.
+git config --global core.editor <editor>: Define o editor de texto padrão para mensagens de commit.
+git config --global alias.<alias> <comando>: Cria um alias para um comando Git.
+git reset --soft <commit>: Reseta o HEAD para um commit específico, mantendo as alterações no índice.
+git commit --amend --no-edit: Adiciona alterações ao último commit sem editar a mensagem de commit.
+git push <remote> --tags: Envia todas as tags para o repositório remoto.
+git push <remote> :<branch>: Deleta uma branch remota.
+git branch -m <nome_antigo> <nome_novo>: Renomeia uma branch local.
+git diff HEAD~2: Exibe as diferenças entre o HEAD e o commit dois passos antes.
+git rebase --continue: Continua um rebase após resolver conflitos.
+git rebase --skip: Pula um commit durante um rebase.
+git rebase --abort: Aborta um rebase.
+git checkout -b <nome_branch> <remote>/<branch>: Cria uma nova branch local a partir de uma branch remota.
+git log -- <arquivo>: Exibe o histórico de commits específicos para um arquivo.
+git remote prune <remote>: Remove referências de branches remotas que foram excluídas no repositório remoto.
+git reflog show <branch>: Exibe o histórico de reflog para uma branch específica.
+git push <remote> --all: Envia todas as branches locais para o repositório remoto.
+git revert --no-commit HEAD~3..HEAD: Reverte os últimos três commits sem criar um novo commit.
+git branch --merged: Lista as branches que foram mescladas na branch atual.
+git branch --no-merged: Lista as branches que não foram mescladas na branch atual.
+git rebase -i HEAD~3: Permite reorganizar os últimos três commits interativamente antes de realizar o rebase.
+git push <remote> :<tag>: Deleta uma tag remota.
+git push <remote> --mirror: Envia todas as referências (branches e tags) para o repositório remoto, deletando qualquer referência que não exista localmente.
